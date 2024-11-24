@@ -10,7 +10,7 @@ export default function About() {
         <div className="relative w-full  md:w-1/3 rounded-lg shadow-lg h-160">
         {/* Image */}
         <Image
-          src="./huz.png" // Ensure this image exists in the "public" directory
+          src="/huz.png" // Ensure this image exists in the "public" directory
           alt="M.Huzaifa Ansari"
           // width={100}
           // height={100}
