@@ -10,7 +10,7 @@ export default function About() {
         <div className="relative w-full  md:w-1/3 rounded-lg shadow-lg h-160">
         {/* Image */}
         <Image
-          src="/huz.png" // Ensure this image exists in the "public" directory
+          src="./huz.png" // Ensure this image exists in the "public" directory
           alt="M.Huzaifa Ansari"
           // width={100}
           // height={100}
@@ -45,7 +45,7 @@ export default function About() {
           </div>
           {/* Download CV Button */}
           <a
-            href="/public/CV.png" // Ensure this file exists in the "public" directory
+            href="./public/Huzaifa CV Resume.pdf" // Ensure this file exists in the "public" directory
             download="M.Huzaifa_Ansari_CV.png" // Optional: Set a custom download filename
             className="bg-yellow-500 text-gray-900 px-4 py-2 mt-10 rounded hover:bg-yellow-600 relative top-4"
           >
